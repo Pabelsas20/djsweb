@@ -1,0 +1,120 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+html{
+    scroll-behavior: smooth;
+}
+
+body{
+    background-color: #8de41c;
+}
+
+header{
+    height: 75px;
+    background-color: #8de41c;
+}
+
+header > img{
+    width: 45px;
+    margin: 15px;
+}
+
+header>h1{
+    color: black;
+    font-family: 'Gill Sans', 'Gill Sans MT', sans-serif;
+}
+
+main{
+    margin-top: 25px;
+    width: 100%;
+    display: grid;
+}
+
+.seccion1{
+    width: 100%;
+    height: calc(100vh - 150px);
+    padding-top: 50px; 
+    display: flex;
+    flex-direction: row;
+    align-items: top;
+    justify-content: space-between;
+    background-image: url('../imgs/fondodjs.png');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
+}
+
+.box{
+    width: 300px;
+    height: 300px;
+    background-color: white;
+    justify-self: center;
+    border-radius: 5px;
+    font-family: 'Century gothic', sans-serif;
+}
+
+.box-img{
+    width: 100%;
+    border-radius: 5px 5px 0 0;
+}
+
+.box-title{
+    margin-left: 15px;
+    margin-right: 5px;
+    font-size: 20px;
+    font-weight: 600;
+}
+
+.box-p{
+    margin-left: 15px;
+    margin-right: 10px;
+    margin-bottom: 25px;
+}
+
+.negrita{
+    font-weight: 900;
+}
+
+.box-btn{
+    color: black;
+    margin-left: calc(100% - 150px);
+    border: 1px solid black;
+    padding: 5px 15px;
+}
+
+.seccion2{
+    height: 300vh;
+    display: grid;
+    grid-template-rows: 1fr 1fr 1fr;
+}
+
+.tecnica{
+    height: 100vh;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: 'Century gothic', sans-serif;
+    font-weight: 700;
+    font-size: 30px;
+    text-align: center;
+    padding: 0 100px;
+}
+
+.tecnica1{
+    background-color: red;
+}
+
+.tecnica2{
+    background-color: blue;
+}
+
+.upicon{
+    position: fixed;
+    top: calc(100vh - 100px);
+    left: calc(100% - 100px);
+    width: 50px;
+    z-index: 30;
+}
